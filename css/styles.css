@@ -1,6 +1,9 @@
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.75em;
 }
 
 p {
@@ -8,51 +11,69 @@ p {
   width: 100px;
   height: 25px;
   position: absolute;
-  top:0;
+  top:-20px;
   right:0;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.23em;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
 }
 
 div#Chicken {
-  background-color: gray;
+  background-color: #E6E6FA;
   width: 250px;
   height: 250px;
   float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  padding-top: 60px;
+  margin-right: 25px;
+  margin-bottom: 25px;
   position: relative;
-  text-align: left;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
 }
 div#Beef {
-  background-color: gray;
+  background-color: #BC8F8F;
   width: 250px;
   height: 250px;
   float: left;
-  margin-right: 10px; 
-  margin-bottom: 10px;
+  padding-top: 60px;
+  margin-right: 25px; 
+  margin-bottom: 25px;
   position: relative;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
 }
 div#Sushi {
-  background-color: gray;
+  background-color: #98FB98;
   width: 250px;
   height: 250px;
   float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  padding-top: 60px;
+  margin-right: 25px;
+  margin-bottom: 25px;
   position: relative; 
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
 }
 
 #p1 {
-  background-color: #A52A2A;
+  background-color: #FFB6C1;
   text-align: center;
-  float: right;
+
 
 }
 #p2 {
-  background-color: #DEB887;
+  background-color: #B22222;
   text-align: center;
+  color: white;
 }
 #p3 {
-  background-color: #5F9EA0;
+  background-color: #F0E68C;
   text-align: center;
 }
 
@@ -61,15 +82,15 @@ div#Sushi {
 @media (min-width: 992px) {
   div#Chicken {
     width: 30%;
-    height: 170px;
+    height: 140px;
   }
   div#Beef {
     width: 30%;
-    height: 170px;
+    height: 140px;
   }
    div#Sushi {
     width: 30%;
-    height: 170px;
+    height: 140px;
   }
 }
 
@@ -78,15 +99,15 @@ div#Sushi {
 @media (min-width: 768px) and (max-width: 991px) {
   div#Chicken {
     width: 40%;
-    height: 170px;
+    height: 120px;
   }
   div#Beef {
     width: 40%;
-    height: 170px;
+    height: 120px;
   }
    div#Sushi {
     width: 82%;
-    height: 170px;
+    height: 140px;
   }
 }
 
