@@ -14,7 +14,7 @@
 		<nav id="header-nav" class="navbar navbar-defaukt">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.html" class="pull-left visible-md visible-xs">
+					<a href="index.html" class="pull-left visible-xs">
 					</a>
 					<div class="navbar-brand">
 					 <a href="index.html"><h1>Food,LLC</h1></a>
@@ -31,16 +31,16 @@
 		        <div id="collapsable-nav" class="collapse navbar-collapse">
 		        	<ul id="nav-list" class="nav navbar-nav navbar-right">
 			            <li>
-			             <a href="Chicken">
-			                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Chicken</a>
+			             <a href="#Chicken">
+			                <br class="visible-xs "> Chicken</a>
 			            </li>
 			            <li>
-			              <a href="Beef">
-			                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Beef</a>
+			              <a href="#beef">
+			               	<br class="visible-xs"> Beef</a>
 			            </li>
 			            <li>
-			             <a href="Sushi">
-			                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Sushi</a>
+			             <a href="#sushi">
+			                <br class="visible-xs"> Sushi</a>
 			            </li>
 		          	</ul>	
 		        </div>
@@ -50,30 +50,39 @@
 		</nav>		
 	</header>
 
-<h1 class="text-center">Our Menu</h1>
-<div id="Chicken">
-	<p id="p1"> Chicken </p> 
-	Southern Styled Fried Chicken with Seasoned Rice. Each Order comes with a Large Drink and a side.
-	
-</div>
+<h2 class="text-center">Our Menu</h2>
 
-<div id="Beef">
-	<p id="p2"> Beef </p>
-	Honey Roasted Beef with a side of Baked Potatoes. Each Order Comes With a Large Drink and a Side.
+<div class="row">
+	<section id="Chicken" class="col-xs-12">
+		<div class="container-fluid">
+			<p id="p1" class="text-center"> Chicken </p> 
+			Southern Styled Fried Chicken with Seasoned Rice. Each Order comes with a Large Drink and a side.
+		</div>
+	</section>
 </div>
-
-<div id="Sushi">
-	<p id="p3"> Sushi </p>
-	Fresh Sushi prepared with the best ingredients and freshest fish.
+<div class="row">
+	<section id="beef"class="col-xs-12">
+		<div class="container-fluid">
+			<p id="p2" class="text-center"> Beef </p>
+			Honey Roasted Beef with a side of Baked Potatoes. Each Order Comes With a Large Drink and a Side.
+		</div>
+	</section>
 </div>
-
-<section id="section">
-	<div class="container">
-		<div class="col-xs-12">
-        	<span class="text-center">About</span>
-   		</div>
-	</div>
-</section>
+<div class="row">
+	<section id="sushi"  class="col-xs-12">
+		<div class="container-fluid">
+			<p id="p3" class="text-center"> Sushi </p>
+			Fresh Sushi prepared with the best ingredients and freshest fish.
+		</div>
+	</section>
+</div>
+<div class="row">
+	<section id="block" class="col-xs-12">
+		<div class="container-fluid">
+			<h3 class="text-center">About</h3>
+		</div>
+	</section>
+</div>
 
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

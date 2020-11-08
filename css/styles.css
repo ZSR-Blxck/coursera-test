@@ -1,16 +1,30 @@
 
-h1 {
-  margin-bottom: 15px;
-  font-family: Arial, sans-serif;
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 { 
+  color: white;
+  font-size: 1.5em;
   font-weight: bold;
-  font-size: 1.75em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+h2 {
+  margin-bottom: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
 }
 
-p {
+/*p {
   border: 1px solid black;
   width: 100px;
   height: 25px;
-  position: absolute;
+  position: relative;
   top:-20px;
   right:0;
   font-family: sans-serif;
@@ -19,80 +33,86 @@ p {
   border-style: solid;
   border-color: black;
   border-width: 1px;
-}
+}*/
 
-div#Chicken {
+#Chicken {
   background-color: #E6E6FA;
-  width: 250px;
-  height: 250px;
-  float: left;
+  width: 90%;
+  height: 700px;
   padding-top: 60px;
-  margin-right: 25px;
-  margin-bottom: 25px;
+  margin: 50px;
   position: relative;
   border-style: solid;
   border-color: black;
   border-width: 1px;
+  text-align: center;
 }
-div#Beef {
+#beef {
   background-color: #BC8F8F;
-  width: 250px;
-  height: 250px;
-  float: left;
+  width: 90%;
+  height: 700px;
   padding-top: 60px;
-  margin-right: 25px; 
-  margin-bottom: 25px;
+  margin-left: 50px;
   position: relative;
   border-style: solid;
   border-color: black;
   border-width: 1px;
+  text-align: center;
 }
-div#Sushi {
+#sushi {
   background-color: #98FB98;
-  width: 250px;
-  height: 250px;
-  float: left;
+  width: 90%;
+  height: 700px;
   padding-top: 60px;
-  margin-right: 25px;
-  margin-bottom: 25px;
+  margin-left: 50px;
   position: relative; 
   border-style: solid;
   border-color: black;
   border-width: 1px;
+  text-align: center;
 }
 
 #p1 {
-  background-color: #FFB6C1;
-  text-align: center;
-
-
+  font-weight: bold;
+  font-size: 1.8em;
 }
 #p2 {
-  background-color: #B22222;
-  text-align: center;
   color: white;
+  font-weight: bold;
+  font-size: 1.8em;
 }
 #p3 {
-  background-color: #F0E68C;
-  text-align: center;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+#block{
+  background-color: yellow;
+  position: relative;
+  height: 700px;
+  margin-left: 50px;
+  width: 90%;
+}
+.navbar-brand {
+  padding-top: 25px;
+  width: 100%;
 }
 
-#section{
-  height: 1000px;
-  background-color: #f6b319;
-}
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar  {
-  border: 1px solid #61122f;
+  border: 1px solid #61122f; 
+}
+.icon-bar {
+  border-style: solid;
+  border-color: black;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
 }
 
 #nav-list {
-  margin-top: 10px;
+  margin-top: -10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: black;
   text-align: center;
 }
 #nav-list a:hover {
@@ -102,52 +122,56 @@ div#Sushi {
   font-size: 1.8em;
 }
 
-/********** Large devices only **********/
+/********** Large devices only **********
 @media (min-width: 992px) {
-  div#Chicken {
-    width: 30%;
+  #Chicken {
+    width: 100%;
     height: 140px;
   }
-  div#Beef {
-    width: 30%;
+  #beef {
+    width: 100%;
     height: 140px;
   }
-   div#Sushi {
-    width: 30%;
+  #sushi {
+    width: 100%;
     height: 140px;
   }
 }
 
 
-/********** Medium devices only **********/
+/********** Medium devices only **********
 @media (min-width: 768px) and (max-width: 991px) {
-  div#Chicken {
-    width: 40%;
+  #Chicken {
+    width: 100%;
     height: 120px;
   }
-  div#Beef {
-    width: 40%;
+  #beef {
+    width:100%;
     height: 120px;
   }
-   div#Sushi {
-    width: 82%;
+  #sushi {
+    width: 100%;
     height: 140px;
   }
 }
 
 /********** Mobile devices only **********/
-@media (max-width: 767px) {
-  div#Chicken {
-    width: 100%;
-    height: 120px;
+@media (max-width: 768px) {
+  #Chicken {
+    width: 70%;
+    margin:70px;
   }
-  div#Beef {
-    width: 100%;
-    height: 120px;
+  #beef {
+    width: 70%;
+    margin: 70px;
   }
-  div#Sushi {
-    width: 100%;
-    height: 120px;
+  #sushi {
+    width: 70%;
+    margin: 70px;
+  }
+  #block{
+    width: 70%;
+    margin: 70px;
   }
   #collapsable-nav a{
     font-size: 1.2em;
@@ -155,6 +179,10 @@ div#Sushi {
   #collapsable-nav a span{
     font-size: 1em;
     margin-right: 5px;
+  }
+  .navbar-brand {
+  height: 10px;
+  width: 90%;
   }
 
 }
